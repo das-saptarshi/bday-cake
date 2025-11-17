@@ -36,8 +36,7 @@ document.addEventListener("DOMContentLoaded", function () {
   function addInitialCandles() {
   const rect = cake.getBoundingClientRect();
 
-  // 🔥 Change as you like
-  const initialCandleCount = 26;
+  const initialCandleCount = 27;
 
   for (let i = 0; i < initialCandleCount; i++) {
     // random horizontal position (but avoid edges)
